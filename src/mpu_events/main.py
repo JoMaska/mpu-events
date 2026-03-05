@@ -1,2 +1,3 @@
-if __name__ == "__main__":
-    print("Заглушка")
+from mpu_events.bootstrap.app import create_app
+
+app = create_app()
